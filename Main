@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JKF AgriVentures</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+    }
+    header, footer {
+      background: #28a745;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    h1, h2 {
+      color: #28a745;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✔️ ";
+    }
+    .cta {
+      background: #28a745;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    .cta a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #28a745;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JKF AgriVentures</h1>
+    <p>Empowering Small Farmers. Delivering Fresh Produce.</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>What We Do</h2>
+      <p>We connect local farmers directly with buyers through our mobile platform — cutting out middlemen, reducing post-harvest loss, and ensuring fair prices for everyone.</p>
+    </section>
+
+    <section>
+      <h2>How It Works</h2>
+      <ol>
+        <li>Farmers Upload Produce</li>
+        <li>Buyers Place Orders</li>
+        <li>We Coordinate Pickup or Delivery</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li>Fair Trade Pricing</li>
+        <li>Fresh & Local Produce</li>
+        <li>Supports Small Farmers</li>
+        <li>Simple & Secure App</li>
+      </ul>
+    </section>
+
+    <div class="cta">
+      📥 <strong>Download the App (Coming Soon!)</strong><br>
+      [Google Play] [App Store]
+    </div>
+
+    <section>
+      <h2>Follow Us</h2>
+      <div class="social-links">
+        <a href="#">Facebook</a>|
+        <a href="#">Instagram</a>|
+        <a href="#">Twitter</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Partner With Us</h2>
+      <p>Are you a cooperative, institution, or local LGU? Let’s work together. 👉 <a href="#">Become a Partner</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 JKF AgriVentures. All rights reserved.</p>
+  </footer>
+</body>
+</html>
